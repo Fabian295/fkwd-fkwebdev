@@ -1,0 +1,31 @@
+$clr-bg: hsl(0, 0%, 15%);
+$clr-title: hsl(249, 80%, 67%);
+$clr-aqua: hsl(180, 100%, 50%);
+$clr-global: #fff;
+
+
+body {
+    background-color: $clr-bg;
+    color: $clr-global;
+}
+
+.title {
+    color: $clr-aqua;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.block {background-color: hsl(240, 100%, 50%);
+    width: 200px;
+    height: 100px;
+
+}
+
+.block:hover {
+    cursor: pointer;
+    background-color: lighten(blue, 20%);
+}
