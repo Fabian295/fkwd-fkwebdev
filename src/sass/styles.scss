@@ -9,23 +9,19 @@ body {
     color: $clr-global;
 }
 
-.title {
-    color: $clr-aqua;
-    text-align: center;
-}
+// .title {
+//     color: $clr-aqua;
+//     text-align: center;
+// }
 
 img{
     width: 100%;
     display: block;
 }
 
-.block {background-color: hsl(240, 100%, 50%);
-    width: 200px;
-    height: 100px;
-
+.primary__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.block:hover {
-    cursor: pointer;
-    background-color: lighten(blue, 20%);
-}
